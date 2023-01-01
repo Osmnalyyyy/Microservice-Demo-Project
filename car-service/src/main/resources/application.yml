@@ -1,0 +1,14 @@
+
+server:
+  port: 8084
+  
+spring:
+  application:
+    name: car-service
+  config:
+    import: optional:configserver:http://localhost:8090   
+    
+     
+    
+    
+    
